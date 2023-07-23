@@ -74,7 +74,7 @@ resource "helm_release" "ingress_gateway" {
 
   set {
     name  = "serviceAccount.create"
-    value = "true"
+    value = "false"
   }
 
 # touch
